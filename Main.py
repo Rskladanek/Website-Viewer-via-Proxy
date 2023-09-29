@@ -45,7 +45,7 @@ def watch_video_via_proxy(website_domain, proxy_count):
     input("Viewers have all been sent. You can press enter to close it...")
 
 if __name__ == "__main__":
-    website_domain = input("Write website Domain")
+    website_domain = input("Enter the website domain")
     proxy_count = int(input("How many viewers"))
 
     watch_video_via_proxy(website_domain, proxy_count)
